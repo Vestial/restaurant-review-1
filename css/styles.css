@@ -285,3 +285,78 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+@media only screen and (max-width: 600px) {
+	#restaurants-list li {
+		max-width: 100%;
+	}
+	.filter-options {
+		text-align: center;
+		margin: auto;
+	}
+	#cuisines-select {
+		margin-top: 20px;
+  }
+  #breadcrumb { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .inside #map-container {
+    background: blue none repeat scroll 0 0;
+    height: 300px;
+    position: inherit; 
+    width: 300px;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 32px;
+  }
+  #restaurant-container, #reviews-container {
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #fff;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+  #reviews-container {
+    margin-bottom: 80px;
+    margin-top: auto;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+	#restaurants-list li {
+		max-width: 45%;
+	}
+	#restaurant-cuisine {
+		max-width: 800px;
+		margin-right: auto;
+		display: block;
+		font-size: 15pt;
+	}
+}
+
+@media only screen and (min-width: 750px) {
+	#restaurants-list li {
+		max-width: 300px;
+  }
+  #reviews-list li {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+	body {
+		background-color: #F3F3F3;
+	}
+  main {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+	#breadcrumb {
+		padding-left: 50px;
+	}
+}
