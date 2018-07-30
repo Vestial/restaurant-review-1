@@ -311,7 +311,7 @@ nav h1 a {
 
 /* ====================== Media queries ====================== */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   #restaurants-list li {
     max-width: 100%;
   }
@@ -352,7 +352,7 @@ nav h1 a {
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 651px) {
   #restaurants-list li {
     max-width: 45%;
   }
@@ -361,6 +361,9 @@ nav h1 a {
     margin-right: auto;
     display: block;
     font-size: 15pt;
+  }
+  #reviews-list li {
+    max-width: 70%;
   }
 }
 
